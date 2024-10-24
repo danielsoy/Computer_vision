@@ -2,7 +2,7 @@ import cv2 as cv  # import opencv2 as cv.you need to install it before to import
 
 ###################
 
-Image = cv.imread("C:\\anodet/notebooks\show foto/andrea.jpg") # path to the picture to read and show.
+Image = cv.imread("C:\\Users\libro\Downloads/andrea.jpg") # path to the picture to read and show.
 
 cv.imshow("andrea", Image) # chose a name for the window that will hold the image, and show it.
 
