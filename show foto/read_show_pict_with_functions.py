@@ -21,10 +21,10 @@ def show_image(image2show): # def defines a function named:show image.it takes o
 ###############################################
 
 
-returned_imagen=read_image(Image_dir) # it calls or execute read_image, an already defined function is located..
-# It passes a value to read_image function.this value is the path to the directory where the picture to show
+returned_imagen=read_image(Image_dir) # it calls or execute read_image, an already defined function. 
+# It passes a value to read_image function.this value is the path to the directory where the picture to show is located.
 # That directory is hold by Image_dir variable, already defined at line:5
-# read_image function, returns a value:read_imagen.that variable holds the actual picture, assigned at line:10.
+# read_image function, returns a value:read_imagen.that variable assigned at line 10, holds the actual picture.
 # that returned value at line 12 (picture), is assigned to returned_imagen variable at line 25.
 
 show_image(returned_imagen)# this line execute show_image, an already defined funtion at line 18.
