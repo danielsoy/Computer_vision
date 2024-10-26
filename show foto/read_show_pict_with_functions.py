@@ -19,20 +19,20 @@ def show_image(image2show): # def defines a function named:show image.it takes o
 	                                # this function returns no value.
 ###############################################
 
-while True:	# this is a loop that flows between lines 24 to 36, until the value of count variable ,defined
-	# at line 4, reaches a value equal to 3.
+while True:	# this is a loop that flows between lines 22 to 34, until the value of count variable ,defined
+	# at line 3, reaches a value equal to 3.
 	
 	returned_imagen=read_image(Image_dir_+"andrea"+str(count)+".png") # it calls or execute read_image, an already defined function. 
 	# It passes a value to read_image function.this value is the path to the directory where the picture to show is located.
-	# That directory is hold by Image_dir_ variable, already defined at line:5
+	# That directory is hold by Image_dir_ variable, already defined at line:4
 	# read_image function, returns a value:read_imagen.that variable assigned at line 10, holds the actual picture.
-	# that returned value at line 12 (picture), is assigned to returned_imagen variable at line 25.
-	show_image(returned_imagen)# this line execute show_image, an already defined funtion at line 18.
+	# that returned value at line 11 (picture), is assigned to returned_imagen variable at line 25.
+	show_image(returned_imagen)# this line execute show_image, an already defined funtion at line 16.
 	# it passes the picture hold by returned_imagen variable, to show_image function.
 	# show_image function, returns no value.theres no return line, at the end of that function.	  
 	count=count+1 # adds one, to the value of count variable. its a counter by one .
 	if(count==4): # when counts variable reaches 4, the continous loop is broken. and the flow of the script,
-		break	  # jumps to line 37, and then goes on to line 39.
+		break	  # jumps to line 37, and then goes on to line 38.
 
 cv.destroyAllWindows()     # destroy all open windows.
 print("Listo el pollo!")   # chicken ready!
